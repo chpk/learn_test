@@ -3,6 +3,8 @@ from database_1 import add_userdata, login_user
 from streamlit.components.v1 import html
 import webbrowser
 import os
+import numpy as np
+
 
 st. set_page_config(layout="wide")
 # Initialize the users database
